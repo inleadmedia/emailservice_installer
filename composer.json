@@ -19,6 +19,10 @@
             "url": "git@github.com:easySuite/emailservice.git"
         },
         {
+            "type": "vcs",
+            "url": "git@github.com:easySuite/lms-client.git"
+        },
+        {
             "type": "package",
             "package": {
                 "name": "recurser/jquery-simple-color",
@@ -55,6 +59,7 @@
         "drupal/field_group": "^1.0",
         "drupal/multiple_fields_remove_button": "^1.0",
         "drush/drush": "^9.0.0",
+        "lms/client": "dev-master",
         "inlead/emailservice": "dev-development",
         "recurser/jquery-simple-color": "^1.2",
         "vlucas/phpdotenv": "^2.4",
