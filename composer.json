@@ -16,11 +16,11 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:easySuite/emailservice.git"
+            "url": "git@github.com:inleadmedia/emailservice.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:easySuite/lms-client.git"
+            "url": "git@github.com:inleadmedia/lms-client.git"
         },
         {
             "type": "package",
