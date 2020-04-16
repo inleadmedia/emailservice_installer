@@ -8,20 +8,20 @@
     "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
     "chat": "https://www.drupal.org/node/314178"
   },
-  "repositories": [
-    {
+  "repositories": {
+    "drupal": {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    {
+    "emailservice": {
       "type": "vcs",
       "url": "git@github.com:inleadmedia/emailservice.git"
     },
-    {
+    "lms-client": {
       "type": "vcs",
       "url": "git@github.com:inleadmedia/lms-client.git"
     },
-    {
+    "jquery-simple-color": {
       "type": "package",
       "package": {
         "name": "recurser/jquery-simple-color",
@@ -33,7 +33,7 @@
         }
       }
     },
-    {
+    "spectrum": {
       "type": "package",
       "package": {
         "name": "bgrins/spectrum",
@@ -45,7 +45,7 @@
         }
       }
     }
-  ],
+  },
   "require": {
     "bgrins/spectrum": "^1.8.0",
     "composer/installers": "^1.2",
@@ -59,7 +59,7 @@
     "drupal/multiple_fields_remove_button": "^1.0",
     "drupal/redirect_after_login": "^2.5",
     "inlead/emailservice": "dev-development",
-    "lms/client": "dev-master",
+    "inleadmedia/lms-library": "dev-development",
     "recurser/jquery-simple-color": "^1.2"
   },
   "require-dev": {
