@@ -55,7 +55,7 @@
     "drupal/core-composer-scaffold": "^8.8",
     "drupal/core-project-message": "^8.8",
     "drupal/core-recommended": "^8.8",
-    "drupal/field_group": "^1.0",
+    "drupal/field_group": "3.0",
     "drupal/multiple_fields_remove_button": "^1.0",
     "drupal/redirect_after_login": "^2.5",
     "inlead/emailservice": "dev-development",
