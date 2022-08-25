@@ -15,11 +15,11 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "vcs",
+            "type": "git",
             "url": "git@github.com:inleadmedia/emailservice.git"
         },
         {
-            "type": "vcs",
+            "type": "git",
             "url": "git@github.com:inleadmedia/lms-client.git"
         },
         {
@@ -51,26 +51,31 @@
         "bgrins/spectrum": "^1.8.0",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/admin_toolbar": "^1.25",
+        "drupal/admin_toolbar": "^3.1",
         "drupal/bootstrap": "^3.19",
+        "drupal/color": "^1.0",
         "drupal/color_field": "^2.0",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.6.0",
-        "drupal/field_group": "^1.0",
+        "drupal/core": "^9",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
+        "drupal/field_group": "^3.2",
+        "drupal/jquery_ui_accordion": "^1.1",
         "drupal/multiple_fields_remove_button": "^1.0",
+        "drupal/queue_ui": "^2.2",
         "drupal/redirect_after_login": "^2.5",
-        "drush/drush": "^9.0.0",
+        "drupal/upgrade_status": "^3.16",
+        "drush/drush": "^10.0.0",
         "inlead/emailservice": "dev-development",
-        "lms/client": "dev-master",
+        "inleadmedia/lms-client": "dev-master",
         "recurser/jquery-simple-color": "^1.2",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/twig_xdebug": "^1.0",
-        "webflo/drupal-core-require-dev": "^8.6.0"
+        "drupal/twig_xdebug": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -78,7 +83,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/console-extend-plugin": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
+        }
     },
     "autoload": {
         "classmap": [
@@ -118,6 +131,14 @@
             "initial": {
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
+            },
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+        "patches" : {
+            "drupal/redirect_after_login" : {
+                "#3214949: Headers have already been sent after upgrade to Drupal 9.2 (can't login)  (https://www.drupal.org/project/redirect_after_login/issues/3214949)":"https://www.drupal.org/files/issues/2021-06-20/3214949.patch"
             }
         }
     }
