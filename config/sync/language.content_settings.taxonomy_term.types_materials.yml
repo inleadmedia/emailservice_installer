@@ -1,0 +1,18 @@
+uuid: f9436c59-eb56-4761-b80b-2d909e3a106e
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.types_materials
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.types_materials
+target_entity_type_id: taxonomy_term
+target_bundle: types_materials
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: d72b59f7-935b-4cc4-ac69-b381a9922ac0
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url_for_item_page
+    - node.type.subscription
+_core:
+  default_config_hash: L1AOHtByE_SqC_-STm6dCIfVHUTGn1Gc0DqrO_V3Dqs
+id: node.subscription.field_url_for_item_page
+field_name: field_url_for_item_page
+entity_type: node
+bundle: subscription
+label: 'URL til materialevisningside'
+description: 'F.eks. https://www.lemvigbibliotek.dk/ting/object/'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

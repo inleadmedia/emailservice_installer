@@ -1,0 +1,23 @@
+uuid: b5b0ac3a-9acd-4172-897f-0e7d82f4ed7e
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intro_text
+    - node.type.subscription
+  module:
+    - text
+_core:
+  default_config_hash: j0Bsy3MUfPvGscjhM-UOLt7ZjizDUoQEDXj5CRN4kd4
+id: node.subscription.field_intro_text
+field_name: field_intro_text
+entity_type: node
+bundle: subscription
+label: 'Intro tekst'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

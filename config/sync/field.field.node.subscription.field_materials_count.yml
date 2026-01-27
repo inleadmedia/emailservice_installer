@@ -1,0 +1,23 @@
+uuid: 9ca30488-89fd-47b7-a756-78b005e40165
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_materials_count
+    - node.type.subscription
+id: node.subscription.field_materials_count
+field_name: field_materials_count
+entity_type: node
+bundle: subscription
+label: 'Materials Count'
+description: 'The materials count/limit to be included for each category. If this is empty it defaults to <big>9</big> items.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 1000
+  prefix: ''
+  suffix: ''
+field_type: integer

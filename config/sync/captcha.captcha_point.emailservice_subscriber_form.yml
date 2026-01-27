@@ -1,0 +1,7 @@
+uuid: a3c1497c-89d1-4f04-8346-76f1c88c31f2
+langcode: da
+status: true
+dependencies: {  }
+formId: emailservice_subscriber_form
+captchaType: image_captcha/Image
+label: emailservice_subscriber_form

@@ -1,0 +1,21 @@
+uuid: e2ddd564-c954-4f10-96e6-c4b33f0ad96f
+langcode: da
+status: true
+dependencies:
+  module:
+    - emailservice
+    - node
+_core:
+  default_config_hash: LhtOWZPciCUIUxBNLkJyZHKllieDoA8TT_supl4iC2I
+id: node.field_types_categories
+field_name: field_types_categories
+entity_type: node
+type: preferences_set_field_type
+settings: {  }
+module: emailservice
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

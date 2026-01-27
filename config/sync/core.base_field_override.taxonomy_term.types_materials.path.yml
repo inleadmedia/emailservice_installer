@@ -1,0 +1,20 @@
+uuid: f942f08c-329e-492f-a33b-2593ec3f9bf8
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.types_materials
+  module:
+    - path
+id: taxonomy_term.types_materials.path
+field_name: path
+entity_type: taxonomy_term
+bundle: types_materials
+label: 'Alternativ URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,22 @@
+uuid: af2a086b-9d42-461a-99bb-bf25e7a7d3df
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+id: node.subscription.status
+field_name: status
+entity_type: node
+bundle: subscription
+label: Udgivet
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Tilsluttet
+  off_label: Afbrudt
+field_type: boolean

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+langcode: da
+uuid: 40203432-74ab-478b-8613-ad8ed6a1ec6d
+name: 'Nyt på hylderne'
+mail: nyheder@easysuite.dk
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: da
+mail_notification: ''

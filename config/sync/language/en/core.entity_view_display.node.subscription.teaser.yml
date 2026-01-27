@@ -1,0 +1,9 @@
+content:
+  field_buttons_color:
+    settings:
+      format: hex
+      opacity: '1'
+  field_headline_color:
+    settings:
+      format: hex
+      opacity: '1'

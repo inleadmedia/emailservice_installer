@@ -1,0 +1,20 @@
+uuid: ff3d487b-e08e-4670-913e-7fe822a4f290
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+  module:
+    - path
+id: node.subscription.path
+field_name: path
+entity_type: node
+bundle: subscription
+label: 'Alternativ URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,23 @@
+uuid: f79a6985-d07d-4de9-b1e7-1f46254525b0
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: SDm2QWgflSfEPsOcseEjAXbW33DIWsn1Q8mnjAsQlTA
+id: node.field_mailing_list_id
+field_name: field_mailing_list_id
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

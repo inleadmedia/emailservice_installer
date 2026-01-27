@@ -1,0 +1,18 @@
+uuid: ab7a8dba-1316-42c7-8feb-a0482a03df81
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+id: node.subscription.changed
+field_name: changed
+entity_type: node
+bundle: subscription
+label: Ændret
+description: 'Tidspunktet hvor indholdselementet sidst blev redigeret.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

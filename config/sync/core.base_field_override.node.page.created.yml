@@ -1,0 +1,18 @@
+uuid: 8fb23cb1-92fa-4024-a5ad-db4e38d77bd2
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.created
+field_name: created
+entity_type: node
+bundle: page
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

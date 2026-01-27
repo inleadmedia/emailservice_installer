@@ -1,0 +1,20 @@
+uuid: 9172291f-4c81-40b7-84a8-ca1e19b27c11
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+id: node.subscription.uid
+field_name: uid
+entity_type: node
+bundle: subscription
+label: 'Skrevet af'
+description: 'Forfatterens brugernavn.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

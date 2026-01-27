@@ -1,0 +1,18 @@
+uuid: 63ecb3b7-1fea-4bb7-be0b-c9a4ffc57aec
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+id: node.subscription.created
+field_name: created
+entity_type: node
+bundle: subscription
+label: 'Skrevet den'
+description: 'Tidspunktet hvor indholdselementet blev oprettet.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

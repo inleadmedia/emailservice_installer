@@ -1,0 +1,19 @@
+uuid: c3963f17-7552-4986-9c39-672c67a701e0
+langcode: da
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 9GVKSOI0vBq2-NLwj5n6Of9bazJKS14tBu9vWQFIc8I
+name: 'Nyt på hylderne'
+type: subscription
+description: 'Dynamic subscription form'
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

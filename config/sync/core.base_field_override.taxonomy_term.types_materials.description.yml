@@ -1,0 +1,20 @@
+uuid: aef1e78b-7b21-41bf-a557-af6cf4b7a005
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.types_materials
+  module:
+    - text
+id: taxonomy_term.types_materials.description
+field_name: description
+entity_type: taxonomy_term
+bundle: types_materials
+label: Beskrivelse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

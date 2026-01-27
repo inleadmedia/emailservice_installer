@@ -1,0 +1,27 @@
+uuid: 9fe0726a-401d-4d66-b14a-fc2742de2553
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headline_color
+    - node.type.subscription
+  module:
+    - color_field
+_core:
+  default_config_hash: NFtlQCHeJUwyblPalWnICDYH7Tqt7Bd8XrqnMnSbJZs
+id: node.subscription.field_headline_color
+field_name: field_headline_color
+entity_type: node
+bundle: subscription
+label: 'Primær farve'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#000000'
+    opacity: 0.0
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

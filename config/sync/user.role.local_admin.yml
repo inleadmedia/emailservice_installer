@@ -1,0 +1,23 @@
+uuid: bf518a6e-e77e-4c56-ba93-a3dcd73787a8
+langcode: da
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.subscription
+  module:
+    - file
+    - filter
+    - node
+    - system
+_core:
+  default_config_hash: Q4BCw8K4vPv5pkOTieVxiqbeyrPbOMgxVlNVHpG0Hs4
+id: local_admin
+label: 'Local admin'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'delete own files'
+  - 'edit own subscription content'
+  - 'use text format basic_html'
