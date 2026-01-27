@@ -54,15 +54,16 @@
         "drupal/admin_toolbar": "^1.25",
         "drupal/bootstrap": "^3.19",
         "drupal/color_field": "^2.0",
-        "drupal/core": "^8.6.0",
-        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core": "^8.9",
+        "drupal/core-composer-scaffold": "^8.9",
         "drupal/field_group": "^1.0",
         "drupal/multiple_fields_remove_button": "^1.0",
         "drupal/recaptcha": "^3.2",
         "drupal/redirect_after_login": "^2.5",
+        "drupal/upgrade_status": "^3.19",
         "drush/drush": "^9.0.0",
         "inlead/emailservice": "dev-development",
-        "lms/client": "dev-master",
+        "inleadmedia/lms-client": "dev-master",
         "recurser/jquery-simple-color": "^1.2",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
@@ -82,8 +83,14 @@
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true
-        }
+        },
+        "audit": {
+            "abandoned": "report",
+            "block-insecure": false
+        },
+        "platform-check": false
     },
     "autoload": {
         "classmap": [
