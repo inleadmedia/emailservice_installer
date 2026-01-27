@@ -1,7 +1,7 @@
 name: nph
-type: drupal8
+type: drupal9
 docroot: web
-php_version: "7.2"
+php_version: "8.1"
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames: []

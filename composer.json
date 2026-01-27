@@ -51,17 +51,18 @@
         "bgrins/spectrum": "^1.8.0",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
-        "drupal/admin_toolbar": "^1.25",
+        "drupal/admin_toolbar": "^3.0",
         "drupal/bootstrap": "^3.19",
-        "drupal/color_field": "^2.0",
-        "drupal/core": "^8.9",
-        "drupal/core-composer-scaffold": "^8.9",
-        "drupal/field_group": "^1.0",
+        "drupal/color_field": "^3.0",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
+        "drupal/field_group": "^3.6",
         "drupal/multiple_fields_remove_button": "^1.0",
         "drupal/recaptcha": "^3.2",
         "drupal/redirect_after_login": "^2.5",
-        "drupal/upgrade_status": "^3.19",
-        "drush/drush": "^9.0.0",
+        "drupal/upgrade_status": "^4.3",
+        "drush/drush": "^11",
         "inlead/emailservice": "dev-development",
         "inleadmedia/lms-client": "dev-master",
         "recurser/jquery-simple-color": "^1.2",
@@ -70,8 +71,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/twig_xdebug": "^1.0",
-        "webflo/drupal-core-require-dev": "^8.6.0"
+        "drupal/core-dev": "^9"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -84,7 +84,8 @@
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
         },
         "audit": {
             "abandoned": "report",
