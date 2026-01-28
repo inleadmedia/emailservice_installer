@@ -1,4 +1,4 @@
-peytzmail_api_url: 'https://1inlead.peytzmail.com'
+peytzmail_api_url: 'https://inlead.peytzmail.com'
 peytzmail_api_user: apiuser@inlead.dk
 peytzmail_api_token: mqwuEV6yUwaBKvYRdqKa
-log_emails_to_watchdog: 0
+log_emails_to_watchdog: 1
