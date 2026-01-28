@@ -80,6 +80,11 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
+        "preferred-install": {
+            "inlead/emailservice": "source",
+            "inleadmedia/lms-client": "source",
+            "*": "dist"
+        },
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
