@@ -2992,12 +2992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inleadmedia/emailservice.git",
-                "reference": "98ffbfb05b4f5f7cf6f823823840ca9ee2556c9e"
+                "reference": "aabf426110152d5e5eb1006f84ccc7a770d71593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inleadmedia/emailservice/zipball/98ffbfb05b4f5f7cf6f823823840ca9ee2556c9e",
-                "reference": "98ffbfb05b4f5f7cf6f823823840ca9ee2556c9e",
+                "url": "https://api.github.com/repos/inleadmedia/emailservice/zipball/aabf426110152d5e5eb1006f84ccc7a770d71593",
+                "reference": "aabf426110152d5e5eb1006f84ccc7a770d71593",
                 "shasum": ""
             },
             "require": {
@@ -3008,7 +3008,7 @@
             "support": {
                 "source": "https://github.com/inleadmedia/emailservice/tree/NPH-69"
             },
-            "time": "2026-01-28T11:18:06+00:00"
+            "time": "2026-01-28T16:25:22+00:00"
         },
         {
             "name": "inleadmedia/lms-client",
