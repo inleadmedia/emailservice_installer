@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "841e42ae692fff38b67754b7fb3879a6",
+    "content-hash": "8e809a52bb4f2fe788082d0462cf4586",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1720,20 +1720,20 @@
         },
         {
             "name": "drupal/field_group",
-            "version": "3.6.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/field_group.git",
-                "reference": "8.x-3.6"
+                "reference": "4.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.6.zip",
-                "reference": "8.x-3.6",
-                "shasum": "427c0a65dc1936e69e60c120776056cfe5b43e86"
+                "url": "https://ftp.drupal.org/files/projects/field_group-4.0.0.zip",
+                "reference": "4.0.0",
+                "shasum": "d3ff81d8a64b6ac392989b668cfa417be5101642"
             },
             "require": {
-                "drupal/core": "^9.2 || ^10 || ^11"
+                "drupal/core": "^10.3 || ^11"
             },
             "require-dev": {
                 "drupal/jquery_ui_accordion": "*"
@@ -1741,8 +1741,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.6",
-                    "datestamp": "1722672510",
+                    "version": "4.0.0",
+                    "datestamp": "1745478894",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2222,6 +2222,67 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/recaptcha.git",
                 "issues": "https://www.drupal.org/project/issues/recaptcha"
+            }
+        },
+        {
+            "name": "drupal/redirect_after_login",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/redirect_after_login.git",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/redirect_after_login-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "3a1daa51726d9054256fa12b984a875392b5cd0d"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.2",
+                    "datestamp": "1759245888",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Shamsher Alam",
+                    "homepage": "https://www.drupal.org/u/shamsher_alam",
+                    "role": "Author"
+                },
+                {
+                    "name": "prempatel2447",
+                    "homepage": "https://www.drupal.org/user/3250112"
+                },
+                {
+                    "name": "rahul-kr-sh",
+                    "homepage": "https://www.drupal.org/user/3561577"
+                },
+                {
+                    "name": "shamsher_alam",
+                    "homepage": "https://www.drupal.org/user/2742027"
+                },
+                {
+                    "name": "vladimiraus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                }
+            ],
+            "description": "Redirect user after login to a configured url",
+            "homepage": "https://drupal.org/project/redirect_after_login",
+            "support": {
+                "source": "https://git.drupalcode.org/project/redirect_after_login"
             }
         },
         {
@@ -2927,25 +2988,27 @@
         },
         {
             "name": "inlead/emailservice",
-            "version": "dev-development",
+            "version": "dev-NPH-69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inleadmedia/emailservice.git",
-                "reference": "d4d7a8c115a18dc38221ac0cee06e7f1bfd7c9ed"
+                "reference": "6456e6c392cf76707a5002295166a339ef9c0bb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inleadmedia/emailservice/zipball/d4d7a8c115a18dc38221ac0cee06e7f1bfd7c9ed",
-                "reference": "d4d7a8c115a18dc38221ac0cee06e7f1bfd7c9ed",
+                "url": "https://api.github.com/repos/inleadmedia/emailservice/zipball/6456e6c392cf76707a5002295166a339ef9c0bb8",
+                "reference": "6456e6c392cf76707a5002295166a339ef9c0bb8",
                 "shasum": ""
             },
-            "default-branch": true,
-            "type": "drupal-custom-module",
-            "description": "D8 module for communication between subscribers and PeytzMail",
-            "support": {
-                "source": "https://github.com/inleadmedia/emailservice/tree/development"
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
             },
-            "time": "2025-08-01T19:37:01+00:00"
+            "type": "drupal-custom-module",
+            "description": "Drupal module for communication between subscribers and PeytzMail",
+            "support": {
+                "source": "https://github.com/inleadmedia/emailservice/tree/NPH-69"
+            },
+            "time": "2026-01-28T09:27:04+00:00"
         },
         {
             "name": "inleadmedia/lms-client",
