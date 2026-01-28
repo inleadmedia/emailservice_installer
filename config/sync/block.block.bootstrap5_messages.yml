@@ -1,5 +1,5 @@
 uuid: e2bd07b5-a9d6-411d-ba3b-daaa37456af8
-langcode: en
+langcode: da
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: Messages
+  label: Beskeder
   label_display: '0'
   provider: system
 visibility: {  }

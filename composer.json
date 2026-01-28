@@ -60,6 +60,7 @@
         "drupal/core-recommended": "^11",
         "drupal/field_group": "^4.0",
         "drupal/gin": "^5.0",
+        "drupal/masquerade": "^2.0",
         "drupal/recaptcha": "^3.2",
         "drupal/redirect_after_login": "^3.0",
         "drush/drush": "^13",

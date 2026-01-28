@@ -1,5 +1,5 @@
 uuid: 3ef0bf37-e456-49b8-a451-f5d0d6621354
-langcode: en
+langcode: da
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: Footer
+  label: Sidefod
   label_display: '0'
   provider: system
   level: 1

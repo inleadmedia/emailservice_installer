@@ -1,5 +1,5 @@
 uuid: 131d75ee-5d36-4d33-81a1-1449c7b8380a
-langcode: en
+langcode: da
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Primary tabs'
+  label: 'Primære faneblade'
   label_display: '0'
   provider: core
   primary: true

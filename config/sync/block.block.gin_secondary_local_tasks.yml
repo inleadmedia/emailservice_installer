@@ -1,5 +1,5 @@
 uuid: 0439ea68-6d27-4a51-a8cc-3e9ae925348b
-langcode: en
+langcode: da
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Secondary tabs'
+  label: 'Sekundære faneblade'
   label_display: '0'
   provider: core
   primary: false

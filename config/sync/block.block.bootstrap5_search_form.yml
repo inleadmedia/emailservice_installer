@@ -1,5 +1,5 @@
 uuid: 51d28ea2-69a9-4639-abf7-47e169516a36
-langcode: en
+langcode: da
 status: false
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search form'
+  label: Søgefelt
   label_display: '0'
   provider: search
   page_id: null

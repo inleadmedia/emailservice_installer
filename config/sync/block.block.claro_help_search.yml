@@ -1,5 +1,5 @@
 uuid: cdfe5152-8bff-4422-99fc-46c31d8d23d1
-langcode: en
+langcode: da
 status: true
 dependencies:
   module:
@@ -20,7 +20,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search help'
+  label: 'Søg i hjælp'
   label_display: visible
   provider: search
   page_id: help_search
