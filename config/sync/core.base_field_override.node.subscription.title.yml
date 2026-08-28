@@ -1,0 +1,18 @@
+uuid: 38ea8362-612e-4eaf-9d64-065d2ced3724
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+id: node.subscription.title
+field_name: title
+entity_type: node
+bundle: subscription
+label: Titel
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

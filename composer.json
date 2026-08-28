@@ -49,28 +49,30 @@
     ],
     "require": {
         "bgrins/spectrum": "^1.8.0",
-        "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6.5",
-        "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/admin_toolbar": "^1.25",
+        "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/admin_toolbar": "^3.0",
         "drupal/bootstrap": "^3.19",
-        "drupal/color_field": "^2.0",
-        "drupal/console": "^1.0.2",
-        "drupal/core": "^8.6.0",
-        "drupal/field_group": "^1.0",
-        "drupal/multiple_fields_remove_button": "^1.0",
-        "drupal/redirect_after_login": "^2.5",
-        "drush/drush": "^9.0.0",
-        "inlead/emailservice": "dev-development",
-        "lms/client": "dev-master",
+        "drupal/bootstrap5": "^4.0",
+        "drupal/color_field": "^3.0",
+        "drupal/core-composer-scaffold": "^11",
+        "drupal/core-project-message": "^11",
+        "drupal/core-recommended": "^11",
+        "drupal/field_group": "^4.0",
+        "drupal/gin": "^5.0",
+        "drupal/masquerade": "^2.0",
+        "drupal/recaptcha": "^3.2",
+        "drupal/redirect_after_login": "^3.0",
+        "drush/drush": "^13",
+        "inlead/emailservice": "dev-NPH-69",
+        "inleadmedia/lms-client": "dev-master",
         "recurser/jquery-simple-color": "^1.2",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/twig_xdebug": "^1.0",
-        "webflo/drupal-core-require-dev": "^8.6.0"
+        "drupal/core-dev": "^11"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -78,7 +80,27 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "preferred-install": {
+            "inlead/emailservice": "source",
+            "inleadmedia/lms-client": "source",
+            "*": "dist"
+        },
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
+        },
+        "audit": {
+            "abandoned": "report",
+            "block-insecure": false
+        },
+        "platform-check": false
     },
     "autoload": {
         "classmap": [
@@ -104,21 +126,39 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/Commands/{$name}": ["type:drupal-drush"],
-            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
-            "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
-        },
         "drupal-scaffold": {
-            "initial": {
-                ".editorconfig": "../.editorconfig",
-                ".gitattributes": "../.gitattributes"
+            "locations": {
+                "web-root": "web/"
             }
+        },
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/inlead/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
         }
     }
 }

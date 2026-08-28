@@ -1,0 +1,21 @@
+uuid: 90ecef7c-56a5-4977-8597-e9c4e1f93c7b
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_heading
+    - node.type.subscription
+id: node.subscription.field_newsletter_heading
+field_name: field_newsletter_heading
+entity_type: node
+bundle: subscription
+label: 'Mailing list header'
+description: 'The "left" part of newsletter heading. If empty the default "Nyt på hylderne" heading will be sent.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Nyt på hylderne'
+default_value_callback: ''
+settings: {  }
+field_type: string

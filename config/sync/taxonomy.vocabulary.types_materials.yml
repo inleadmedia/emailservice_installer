@@ -1,0 +1,9 @@
+uuid: a9a503a4-fe31-46b6-8d24-917d5d21f9c9
+langcode: und
+status: true
+dependencies: {  }
+name: 'Types of materials'
+vid: types_materials
+description: null
+weight: 0
+new_revision: false

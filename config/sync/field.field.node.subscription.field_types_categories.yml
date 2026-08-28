@@ -1,0 +1,23 @@
+uuid: 94fee082-4b40-44f6-85d5-d635a3e7b8e7
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_types_categories
+    - node.type.subscription
+  module:
+    - emailservice
+_core:
+  default_config_hash: 0OY1hCx5QsCA8udNzJtD0_WaDpaBn-JVw4TW8AbesDo
+id: node.subscription.field_types_categories
+field_name: field_types_categories
+entity_type: node
+bundle: subscription
+label: Præferencer
+description: 'Husk at acquisitonsdato og materialetype tilføjes automatisk.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: preferences_set_field_type

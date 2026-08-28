@@ -1,0 +1,7 @@
+uuid: 9234ccdd-0495-4cdb-9f57-b9187c44dcca
+langcode: da
+status: false
+dependencies: {  }
+formId: node_subscription_form
+captchaType: default
+label: node_subscription_form

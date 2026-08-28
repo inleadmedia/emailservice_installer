@@ -1,0 +1,14 @@
+uuid: ba2ecfd9-a799-456d-8dac-f66f7ec08c79
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.local_admin
+  module:
+    - user
+id: user_remove_role_action.local_admin
+label: 'Remove the Local admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: local_admin

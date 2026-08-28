@@ -1,0 +1,18 @@
+uuid: 498397c3-89e2-49af-b6d0-665b47b73087
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.subscription
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.subscription
+target_entity_type_id: node
+target_bundle: subscription
+default_langcode: site_default
+language_alterable: false

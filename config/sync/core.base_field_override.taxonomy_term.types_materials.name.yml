@@ -1,0 +1,18 @@
+uuid: 1bef72c0-6874-41bd-b44d-5bcd45814086
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.types_materials
+id: taxonomy_term.types_materials.name
+field_name: name
+entity_type: taxonomy_term
+bundle: types_materials
+label: Navn
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

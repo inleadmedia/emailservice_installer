@@ -1,0 +1,152 @@
+uuid: a6dd8d93-3faf-4bf6-8dee-024608699ca2
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.subscription.field_buttons_color
+    - field.field.node.subscription.field_headline_color
+    - field.field.node.subscription.field_intro_text
+    - field.field.node.subscription.field_logo
+    - field.field.node.subscription.field_mailing_list_id
+    - field.field.node.subscription.field_materials_count
+    - field.field.node.subscription.field_newsletter_heading
+    - field.field.node.subscription.field_shared_secret_key
+    - field.field.node.subscription.field_types_categories
+    - field.field.node.subscription.field_url_for_item_page
+    - image.style.thumbnail
+    - node.type.subscription
+  module:
+    - color_field
+    - emailservice
+    - field_group
+    - image
+    - text
+third_party_settings:
+  field_group:
+    group_inlead:
+      children:
+        - field_mailing_list_id
+        - field_shared_secret_key
+      label: 'Vedligeholdes af Inlead'
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: 'OBS: Disse må ikke ændres!'
+        required_fields: true
+_core:
+  default_config_hash: mADLWJApeVHxrESUOlDo_ymujdQiXhnoC72o2V4Uotc
+id: node.subscription.default
+targetEntityType: node
+bundle: subscription
+mode: default
+content:
+  field_buttons_color:
+    type: color_field_widget_default
+    weight: 5
+    region: content
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+  field_headline_color:
+    type: color_field_widget_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+  field_intro_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_logo:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_mailing_list_id:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_materials_count:
+    type: number
+    weight: 27
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_heading:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_shared_secret_key:
+    type: salt_widget_type
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_types_categories:
+    type: preferences_set_widget
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_url_for_item_page:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true

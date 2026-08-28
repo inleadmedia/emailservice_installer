@@ -1,0 +1,85 @@
+labels:
+  10:
+    custom: Årbog
+    original: Årbog
+  12:
+    custom: Billedbog
+    original: Billedbog
+  48:
+    custom: Billedkort
+    original: Billedkort
+  32:
+    custom: Blu-ray
+    original: Blu-ray
+  58:
+    custom: Bøger
+    original: Bog
+  27:
+    custom: 'Bog stor skrift'
+    original: 'Bog stor skrift'
+  38:
+    custom: Cd
+    original: Cd
+  52:
+    custom: Computerspil
+    original: Computerspil
+  16:
+    custom: Dvd
+    original: Dvd
+  23:
+    custom: Ebog
+    original: Ebog
+  57:
+    custom: Fagbøger
+    original: Fagbøger
+  49:
+    custom: Grammofonplade
+    original: Grammofonplade
+  35:
+    custom: 'Graphic novel'
+    original: 'Graphic novel'
+  40:
+    custom: Kort
+    original: Kort
+  56:
+    custom: Lydbog
+    original: Lydbog
+  54:
+    custom: Lydoptagelse
+    original: Lydoptagelse
+  55:
+    custom: Musik
+    original: Musik
+  41:
+    custom: 'Nintendo DS'
+    original: 'Nintendo DS'
+  25:
+    custom: Node
+    original: Node
+  33:
+    custom: PC-spil
+    original: PC-spil
+  20:
+    custom: Playstation
+    original: Playstation
+  50:
+    custom: Serie
+    original: Serie
+  37:
+    custom: Spil
+    original: Spil
+  26:
+    custom: Tegneserie
+    original: Tegneserie
+  31:
+    custom: Tidsskrift
+    original: Tidsskrift
+  45:
+    custom: Video
+    original: Video
+  36:
+    custom: Wii
+    original: Wii
+  39:
+    custom: Xbox
+    original: Xbox

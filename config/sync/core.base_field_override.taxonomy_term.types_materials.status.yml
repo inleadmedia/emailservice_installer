@@ -1,0 +1,22 @@
+uuid: d4f78504-674b-485f-af42-0708c91ad9f6
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.types_materials
+id: taxonomy_term.types_materials.status
+field_name: status
+entity_type: taxonomy_term
+bundle: types_materials
+label: Udgivet
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Tilsluttet
+  off_label: Afbrudt
+field_type: boolean

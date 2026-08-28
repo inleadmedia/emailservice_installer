@@ -1,0 +1,18 @@
+uuid: cc75f1dd-f912-4b43-a7f3-fb10c57d9af3
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.title
+field_name: title
+entity_type: node
+bundle: article
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

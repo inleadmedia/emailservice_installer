@@ -1,0 +1,82 @@
+uuid: 70cd80a8-ce88-48ba-baa1-529c6bc17bde
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.subscription.field_buttons_color
+    - field.field.node.subscription.field_headline_color
+    - field.field.node.subscription.field_intro_text
+    - field.field.node.subscription.field_logo
+    - field.field.node.subscription.field_mailing_list_id
+    - field.field.node.subscription.field_materials_count
+    - field.field.node.subscription.field_newsletter_heading
+    - field.field.node.subscription.field_shared_secret_key
+    - field.field.node.subscription.field_types_categories
+    - field.field.node.subscription.field_url_for_item_page
+    - image.style.thumbnail
+    - node.type.subscription
+  module:
+    - color_field
+    - image
+    - user
+_core:
+  default_config_hash: LbnScH8-yICzNoum5ohOXJkThX8A0OV2wnRYyfzvpeI
+id: node.subscription.teaser
+targetEntityType: node
+bundle: subscription
+mode: teaser
+content:
+  field_buttons_color:
+    type: color_field_formatter_text
+    label: inline
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_headline_color:
+    type: color_field_formatter_text
+    label: inline
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_mailing_list_id:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_url_for_item_page:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  field_intro_text: true
+  field_materials_count: true
+  field_newsletter_heading: true
+  field_shared_secret_key: true
+  field_types_categories: true
+  langcode: true
+  links: true
